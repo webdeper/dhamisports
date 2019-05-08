@@ -51,6 +51,7 @@ body{
     margin-top: -1px;
     background: white;
     transition: all 0.3s;
+    box-shadow: 0px 5px 5px 2px rgba(128, 128, 128, 0.061);
 }
 .navbar .dropdown-menu a{
     display: table-cell;
@@ -178,6 +179,12 @@ body{
     font-family: mm;
     font-size: 40px;
 }
+#up-events .btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 #up-events .ueh{
     border-left:5px solid #136CB3;
     padding: 10px;
@@ -199,6 +206,7 @@ body{
     border: 0px solid;
     background: #136CB3;
     color: white;
+    height: 100%;
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
 
 }
@@ -548,4 +556,431 @@ body{
 #footer-2 p{
     margin-top: 10px;
     color: white;
+}
+
+#about {
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.75) 50%,rgba(19, 107, 179, 0.75) 50%) ,url('../images/back2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about h1{
+    font-family: mbi;
+}
+#about h6{
+    font-family: mm;
+}
+#aboutinfo p{
+    font-family: mr;
+}
+#rg{
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(228, 47, 65, 0.8) 50%,rgba(228, 47, 65, 0.8) 50%) ,url('../images/back2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#rg h2{
+    font-family: mm;
+    font-size: 45px;
+}
+#rg .btn{
+    padding: 20px;
+    width: 250px;
+    border: 0px solid;
+    border-radius: 5px;
+    font-family: mm;
+}
+#stinfo h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+#stinfo p{
+    font-family: mr;
+    padding: 20px;
+}
+#stinfo .card{
+    padding: 40px;
+    border: 0px solid;
+    font-size: 100px;
+}
+#stinfo-img .card img{
+    width: 80px;
+    border: 0px solid;
+}
+
+
+
+
+
+
+#interplace .card{
+	padding: 20px;
+	margin: ;
+	margin: 5px;
+}
+
+
+
+
+
+#interplace .card{
+	width:px;
+	
+	padding: 0px;
+		border: 0px solid;
+	border-radius: 0px;
+	box-shadow: 0px 5px 15px 5px rgba(195, 195, 195, 0.2);
+}
+
+#interplace .card .overlay {
+	position: absolute;
+	bottom: 0px;
+	padding: 10px;
+	font-family: mm;
+	color: white;
+}
+#interplace .card:nth-child(1){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Thailand.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+
+}
+
+#interplace .card:nth-child(2){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Belarus.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+
+#interplace .card:nth-child(3){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Moscow1.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+
+#interplace .card:nth-child(4){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Istanbul.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+
+#interplace .card:nth-child(5){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Dubai.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+
+#interplace .card:nth-child(6){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/almaty.jpg');
+
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+
+#interplace .card:nth-child(7){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/kyr.jpg');
+
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width: 350px;
+    height: 100px;
+	padding: 0px;
+}
+#interplace .card{
+    cursor: pointer;
+}
+#Features li{
+    padding: 15px;
+    font-family: mm;
+    font-size: 20px;
+}
+#as .sport .card{
+    border: 0px solid;
+    padding: 30px;
+    
+}
+#as h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+#as .sport img{
+    width: 50px;
+    text-align: center;
+    
+    
+}
+
+#up-events-summer h1{
+    font-size: 40px;
+    font-family: mm;
+}
+#up-events-summer #events {
+    transition: all 0.3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
+#up-events-summer #events .card{
+    padding: 20px;
+    height: 100%;
+    float: right;
+    border-radius: 5PX;
+    border: 0px solid;
+    background: #136CB3;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
+
+}
+#up-events-summer #events #card-cal{
+    font-family: mm;
+}
+#up-events-summer #events #card-cal h2{
+    font-family: mb;
+}
+}
+#up-events-summer #events .btn{
+    position: absolute;
+    bottom: 0px;
+    left: 0pxx;
+    width: 100%;
+}
+
+
+#winter-interplace .card{
+	padding: 20px;
+	margin: ;
+	margin: 5px;
+}
+
+
+
+
+
+#winter-card .card{
+	width:250px;
+	height: 200px;
+	padding: 0px;
+		border: 0px solid;
+	border-radius: 0px;
+	box-shadow: 0px 5px 15px 5px rgba(195, 195, 195, 0.2);
+}
+#winter-card .card .overlay {
+	position: absolute;
+	bottom: 0px;
+	padding: 10px;
+	font-family: mm;
+	color: white;
+}
+#winter-card .card:nth-child(1){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/almaty.jpg');
+
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width:250px;
+	height: 200px;
+	padding: 0px;
+}
+
+#winter-card .card:nth-child(2){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/geo.png');
+
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width:250px;
+	height: 200px;
+	padding: 0px;
+}
+#winter-interplace  h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+
+#gallery{
+
+}
+#gallery .date{
+    background: #e43042;
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    color: white;
+    border-radius: 5px;
+}
+#gallery .date h3{
+    font-family: mb;
+}
+#gallery .date p{
+    line-height: 0.5;
+    font-family: mr;
+}
+
+#gallery .place{
+    line-height: 2;
+    font-family: mm;
+    background: #e43042;
+    padding: 5px;
+    text-align: center;
+    height: 70px;
+    color: white;
+    border-radius: 5px;
+}
+#gallery .card{
+    padding: 10px;
+    border-radius: 0px;
+    border: 0px solid;
+    transition: all 0.3s;
+}
+#gallery .card:hover{
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 0px;
+    border: 0px solid;
+    transition: all 0.3s;
+}
+#nav-event h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+#nav-event{
+    padding: 10px;
+}
+#nav-event li{
+    padding: 10px;
+    font-family: mm;
+    
+}
+#nav-event a{
+    color: #232323;
+}
+#nav-event li:hover{
+    background: rgb(230, 230, 230);
+    color: red;
+}
+#contact-info{
+    padding: 10px;
+
+}
+#con-1{
+     
+}
+#contact-info .card{
+    padding: 10px;
+    text-align: ;
+    margin: 20px;
+    background:linear-gradient(70deg,rgba(228, 47, 65, 0.8) 50%,rgba(228, 47, 65, 0.8) 50%) ,url('../images/back2.jpg');;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    font-family: mm;
+    border: 0px solid;
+    padding-top: 30px;
+}
+#contact-info .card p{
+    padding: 10px;
+    text-align: ;
+
+}
+#contact-info .card i{
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    text-align: center;
+}
+#con-2{
+    padding: 10px;
+    height: 100%;;
+}
+
+#con-2 h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+#con-2 label{
+    font-family: mr;
+}
+#con-2 form{
+    padding: 20px;
+}
+#con-2 form input{
+    padding: 20px;
+    font-family: mr;
+    border-bottom: 3px solid #136CB3;
+}
+#con-2 form  textarea{
+    padding: 20px;
+    font-family: mr;
+    border-bottom: 3px solid #136CB3;
+}
+#con-2 form .btn{
+    padding: 20px;
+    width: px;
+    border: 0px solid;
+    border-radius: 0px;
+    font-family: mm;
+    float: right;s
 }
