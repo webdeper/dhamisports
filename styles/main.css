@@ -984,3 +984,15 @@ body{
     font-family: mm;
     float: right;s
 }
+
+#company .card{
+    padding:px;
+    border:0px solid;
+    width: 150px;
+
+}
+#company .card img{
+   opacity: 0.8;
+  filter: grayscale(100%);
+    width: 110px;
+}
