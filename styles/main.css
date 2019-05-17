@@ -21,24 +21,34 @@ body{
 .btn{
     border-radius: 5px;
 }
+.navbar .navbar-brand{
+    font-size: 25px;
+}
 .navbar{
-    background: #F7F7F7;
+    background: white;
+    padding: 20px;
+    border-bottom: 2px solid #136CB3;
 }
 .navbar .nav-link{
     color: #727272;
-    font-family: mr;
+    font-family: mm;
+    font-size: 15px;
 }
 .navbar .nav-link.active{
-    font-family: mm;
+    font-family: mb;
     color: #232323;
 }
 .navbar .btn{
-    background: #e43042;
-    color: white;
+    background: transparent;
+    color: #e43042;
     font-family: mm;
-    border: 0px solid;
+    border: 2px solid #e43042;
     border-radius: 5px;
     box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.048);
+}
+.navbar .btn:hover{
+    background: #e43042;
+    color: white;
 }
 .navbar .dropdown{
     position: static;
@@ -71,34 +81,67 @@ body{
     margin: 0 auto;
     background: white;
 }
-#section-1{ 
+#car #section-1{ 
     background: #136CB3;
     position: relative;
     width: 100%;
     color: white;
-    background: linear-gradient(70deg,rgba(19, 107, 179, 0.75) 50%,rgba(19, 107, 179, 0.75) 50%) ,url('../images/back2.jpg');
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-#section-1 h6{
+#car #section-02{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#car #section-03{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#car #section-04{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#car .jumbotron h6{
     font-family: mr;
     word-spacing: 20px;
 }
-#section-1 h2{
+#car .jumbotron  h2{
     font-family: mm;
     font-size: 80px;
     padding: 10px;
 }
-#section-1 h1{
+#car .jumbotron  h1{
     font-family: mbi;
     font-size: 80px;
     padding: 10px;
 }
-#section-1 .btn{
-    padding: 20px;
-    width: 250px;
+#car .jumbotron  .btn{
+    padding: 10px;
+    width: 300px;;
     border: 0px solid;
     border-radius: 0px;
     font-family: mm;
@@ -109,7 +152,7 @@ body{
 	color: #D9B74E;
 }
 #section-2 h1{
-    border-left:5px solid #136CB3;
+    border-left:0px solid white;
     padding: 10px;
     padding-left: 20px;
     font-family: mb;
@@ -129,33 +172,34 @@ body{
 }
 #section-2 .btn{
     padding: 20px;
-    width: 250px;
+    width: 300px;;
     border: 0px solid;
     border-radius: 0px;
     font-family: mm;
 }
 #our-packages{
-
+    text-align: center;
+    background: rgb(245, 250, 255);
 }
 #our-packages h1{
-    border-left:5px solid #136CB3;
+    border-left:0px solid #136CB3;
     padding: 10px;
     padding-left: 20px;
     font-family: mb;
     color: #e43042;
 }
 #our-packages .card{
-    padding: 40px;
-    margin: 10px;
-    border-radius: 0px;
-    border: 0px solid;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px solid #136CB3;
     transition: all 0.3s;
-    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.05);
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.01);
 }
 #our-packages .card:hover{
     transform: scale(1.05);
-    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.1);
-
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0);
+    border-bottom: 5px solid #136CB3;
 }
 #out-packages .card .btn{
     position: absolute;
@@ -167,109 +211,73 @@ body{
     padding: 10px;
     font-size: 15px;
     font-family: mm;
+    background: #136CB3;
 }
 #out-packages .card i{
     color: gray;
     background: red;
 }
 #up-events{
-    background:rgb(245, 245, 245);
+    background:rgb(255, 255, 255);
 }
 #up-events  h1{
     font-family: mm;
     font-size: 40px;
 }
-#up-events .btn{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
+
 #up-events .ueh{
-    border-left:5px solid #136CB3;
+    border-left:0px solid #136CB3;
     padding: 10px;
     padding-left: 20px;
     font-family: mb;
     color: #e43042;
 }
-#up-events #ipl {
-    transition: all 0.3s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-    padding: 20px;
-    margin: 20px;
-    background: white;
-}
-#up-events #ipl .card{
-    padding: 20px;
-    float: right;
-    border: 0px solid;
-    background: #136CB3;
-    color: white;
-    height: 100%;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
 
+#up-events  .card {
+    background: white;
+    
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
 }
-#up-events #ipl #card-cal{
+
+#up-events  .card .overlay{
+    position: ;
+    width: 100%;
+padding: 15px;
+background: white;
+    
+    color: white;
+}
+#up-events  .card .overlay{
+    padding: 15px;
     font-family: mm;
 }
-#up-events #ipl #card-cal h2{
-    font-family: mb;
-}
+#up-events  .card .overlay h1{
+    font-family: mm;
+    font-size: 30px;
+    color: #136CB3;
 
-
-#up-events #hockey {
-    transition: all 0.3s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-    padding: 20px;
-    margin: 20px;
-    background: white;
 }
-#up-events #hockey .card{
-    padding: 20px;
-    float: right;
+#up-events  .card .overlay p{
+    font-family: mm;
+    font-size: px;
+    color: rgb(148, 148, 148);
+
+}
+#up-events  .card  .btn{
+    border-radius: 0px;
     border: 0px solid;
-    background: #136CB3;
-    color: white;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-
-}
-#up-events #hockey #card-cal{
+    padding: 15px;
     font-family: mm;
 }
-#up-events #hockey #card-cal h2{
-    font-family: mb;
-}
-
-
-
-#up-events #UEFA {
-    transition: all 0.3s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-    padding: 20px;
-    margin: 20px;
-    background: white;
-}
-#up-events #UEFA .card{
-    padding: 20px;
-    float: right;
+#up-events .s-m{
+    border-radius: 0px;
     border: 0px solid;
-    background: #136CB3;
-    color: white;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-
-}
-#up-events #UEFA #card-cal{
+    padding: 15px;
     font-family: mm;
-}
-#up-events #UEFA #card-cal h2{
-    font-family: mb;
 }
 
 #places .ueh {
-    border-left:5px solid #136CB3;
+    border-left:0px solid #136CB3;
     padding: 10px;
     padding-left: 20px;
     font-family: mb;
@@ -279,26 +287,57 @@ body{
 #places {
 	margin: 0 auto;
 	border-radius: 0px;
-	background-color: white; 
+	background-color:; 
 }
 
 
 
-#places .card{
-	width:px;
-	height: 400px;
-	padding: 0px;
-		border: 0px solid;
-	border-radius: 0px;
-	box-shadow: 0px 5px 15px 5px rgba(195, 195, 195, 0.2);
+#places .panel{
+	transition: all 0.3s;
+	box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
 }
-
-#places .card .overlay h3{
+#places .panel:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
+}
+#places .panel h4 a{
+    text-decoration: none;
+}
+#places .panel-body li{
+    font-family: mr;
+    padding: 10px;
+    margin: 10px;
+}
+#places .card {
+    width: 300px;;
+    height: 250px;
+    border: 0px solid;
+    border-radius: 0px;
+}
+#places .card  h3{
 	position: absolute;
 	bottom: 0px;
-	padding: 20px;
+	padding: 10px;
 	font-family: mm;
-	color: white;
+    color: white;
+    opacity: 1;
+}
+#places .card  .overlay{
+	position: absolute;
+	padding: 5px;
+	font-family: mm;
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    background:  linear-gradient(to bottom,rgba(19, 107, 179, 1) 60%, rgba(0, 0, 29, 1)  110%);
+}
+#places .card:hover  .overlay{
+    opacity: 1;
+    z-index: 1;
 }
 #places .card:nth-child(1){
 	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/Thailand.jpg');
@@ -313,8 +352,8 @@ body{
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 350px;
-	height: 400px;
+	width: 300px;;
+	height: 250px;
 	padding: 0px;
 }
 
@@ -323,8 +362,8 @@ body{
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 350px;
-	height: 400px;
+	width: 300px;;
+	height: 250px
 	padding: 0px;
 }
 
@@ -333,18 +372,87 @@ body{
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 350px;
-	height: 400px;
+	width: 300px;;
+	height: 250px
 	padding: 0px;
 }
 
-#places .card:nth-child(5){
+#places-2 .card:nth-child(1){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/Kyrgystan.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+#places-2 .card:nth-child(2){
 	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/Dubai.jpg');
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 350px;
-	height: 400px;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-2  .card:nth-child(3){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/geo.png');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-2  .card:nth-child(4){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/india.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-3 .card:nth-child(1){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/canada.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-3 .card:nth-child(2){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/bulgaria.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-3 .card:nth-child(3){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/czech.jpg');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
+	padding: 0px;
+}
+
+#places-3 .card:nth-child(4){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/america.JPG');
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;;
+	height: 250px
 	padding: 0px;
 }
 #places .btn{
@@ -472,7 +580,13 @@ body{
     margin-bottom: 3rem;
   
   }
-  
+  #company .ueh{
+    border-left:0px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+  }
   @-webkit-keyframes check {
     50% {
       outline-color: #333;
@@ -497,7 +611,7 @@ body{
   
 
   #com h1 {
-    border-left:5px solid #136CB3;
+    border-left:0px solid #136CB3;
     padding: 10px;
     padding-left: 20px;
     font-family: mb;
@@ -544,7 +658,11 @@ body{
 #footer #link li a{
     color: rgb(240, 240, 240);
     text-decoration: none;
+    font-family: mm;
 
+}
+#footer #link  p{
+    font-family: mm;
 }
 #footer-2{
     margin: 0px;
@@ -595,7 +713,7 @@ body{
 }
 #rg .btn{
     padding: 20px;
-    width: 250px;
+    width: 300px;;
     border: 0px solid;
     border-radius: 5px;
     font-family: mm;
@@ -623,115 +741,17 @@ body{
 
 
 
-
-
-
-#interplace .card{
-	padding: 20px;
-	margin: ;
-	margin: 5px;
-}
-
-
-
-
-
-#interplace .card{
-	width:px;
-	
-	padding: 0px;
-		border: 0px solid;
-	border-radius: 0px;
-	box-shadow: 0px 5px 15px 5px rgba(195, 195, 195, 0.2);
-}
-
-#interplace .card .overlay {
-	position: absolute;
-	bottom: 0px;
-	padding: 10px;
-	font-family: mm;
-	color: white;
-}
-#interplace .card:nth-child(1){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Thailand.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-
-}
-
-#interplace .card:nth-child(2){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Belarus.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-
-#interplace .card:nth-child(3){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Moscow1.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-
-#interplace .card:nth-child(4){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Istanbul.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-
-#interplace .card:nth-child(5){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/Dubai.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-
-#interplace .card:nth-child(6){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 1) 110%) ,url('../images/almaty.jpg');
-
-	background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-
-#interplace .card:nth-child(7){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/kyr.jpg');
-
-    background-size: cover;
-    background-position: center;
-	background-repeat: no-repeat;
-	width: 350px;
-    height: 100px;
-	padding: 0px;
-}
-#interplace .card{
+#interplace .card-group .btn{
+    padding: 10px;
+    margin: 5px;
+    background: transparent;
+    color: #b8b8b8;
+    border: 2px solid #a2a2a2;
+    font-family: mm;
     cursor: pointer;
 }
+
+
 #Features li{
     padding: 15px;
     font-family: mm;
@@ -756,41 +776,52 @@ body{
     
 }
 
-#up-events-summer h1{
-    font-size: 40px;
-    font-family: mm;
+
+#up-events-summer  .btn{
+    position: ;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }
 #up-events-summer #events {
-    transition: all 0.3s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
-    padding: 20px;
-    margin: 20px;
-    background: white;
-}
-#up-events-summer #events .card{
-    padding: 20px;
-    height: 100%;
-    float: right;
-    border-radius: 5PX;
-    border: 0px solid;
-    background: #136CB3;
-    color: white;
+   
+    float: ;
+    border: 0px solid #136CB3;
+    background:white;
+    
+    
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
 
 }
-#up-events-summer #events #card-cal{
+#up-events-summer #events  .overlay{
+    position: ;
+    width: 100%;
+padding: 15px;
+background: white;
+    
+    color: white;
+}
+#up-events-summer #events   .overlay{
+    padding: 15px;
     font-family: mm;
 }
-#up-events-summer #events #card-cal h2{
-    font-family: mb;
+#up-events-summer  #events  .overlay h1{
+    font-family: mm;
+    font-size: 30px;
+    color: #136CB3;
+
 }
+#up-events-summer  #events  .overlay p{
+    font-family: mm;
+    font-size: px;
+    color: rgb(148, 148, 148);
+
 }
-#up-events-summer #events .btn{
-    position: absolute;
-    bottom: 0px;
-    left: 0pxx;
-    width: 100%;
+#up-events-summer  #events   .btn{
+    border-radius: 0px;
+    border: 0px solid;
+    padding: 15px;
+    font-family: mm;
 }
 
 
@@ -840,6 +871,26 @@ body{
 	height: 200px;
 	padding: 0px;
 }
+#winter-card .card:nth-child(3){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/canada.jpg');
+
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width:250px;
+	height: 200px;
+	padding: 0px;
+}
+#winter-card .card:nth-child(4){
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/Istanbul.jpg');
+
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	width:250px;
+	height: 200px;
+	padding: 0px;
+}
 #winter-interplace  h3{
     border-left:5px solid #136CB3;
     padding: 10px;
@@ -847,16 +898,26 @@ body{
     font-family: mb;
     color: #e43042;
 }
-
-#gallery{
-
+.card-columns {
+    column-count: 3;
+  }
+#gallery h1{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+}
+#gallery h2{
+    border-left:0px solid #136CB3;
+    font-family: mb;
+    color: #136CB3;
 }
 #gallery .date{
     background: #e43042;
     padding: 5px;
     text-align: center;
-    width: 70px;
-    height: 70px;
+    
     color: white;
     border-radius: 5px;
 }
@@ -982,7 +1043,7 @@ body{
     border: 0px solid;
     border-radius: 0px;
     font-family: mm;
-    float: right;s
+    float: right;
 }
 
 #company .card{
@@ -995,4 +1056,118 @@ body{
    opacity: 0.8;
   filter: grayscale(100%);
     width: 110px;
+}
+#hockey-event-1 .ueh{
+    border-left:0px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+    text-align: center;
+}
+#hockey-event-1 h1{
+    font-family: mm;
+}
+#hockey-event-1 .card{
+    padding: 20px;
+    border-radius: 5px ;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.05);
+}
+#hockey-event-1 .card h1{
+    font-family: mb;
+    color: #136CB3;
+}
+#hockey-event-1 .card h2{
+    font-family: mm;
+    font-size: 20px;
+    padding: 10px;
+}
+#hockey-event-1 .card h4{
+    font-family: mm;
+    font-size: 18px;
+    padding: 10px;
+}
+#hockey-event-1 .img .card {
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0);
+}
+#hockey-event-1  .btn{
+    padding: 10px;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 0px;
+    font-family: mm;
+}
+#hockey-event-1 p{
+    font-family: mm;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    #car .jumbotron h6{
+        font-family: mr;
+        word-spacing: 10px;
+    }
+    #car .jumbotron  h2{
+        font-family: mm;
+        font-size: 35px;
+        padding: 10px;
+    }
+    #car .jumbotron  h1{
+        font-family: mbi;
+        font-size: 35px;
+        padding: 10px;
+        text-align: center;
+    }
+    #section-2 .btn{
+        padding: 20px;
+        width: 200px;;
+        border: 0px solid;
+        border-radius: 0px;
+        font-family: mm;
+    }
+    #car .jumbotron  .btn{
+        padding: 10px;
+        width: 200px;;
+        border: 0px solid;
+        border-radius: 0px;
+        font-family: mm;
+    }
+    #rg .btn{
+        width: 200px;
+    }
+    #about h1{
+        font-size: 30px;
+    }
+    .navbar .dropdown{
+        position: none ;
+    
+    }
+    .navbar .dropdown-menu{
+        width:100%;
+        border: 0px solid;
+        border-radius: 0px;
+        margin-top: -1px;
+        background: white;
+     
+    }
+    .navbar .dropdown-menu a{
+        display: table;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        transition: all 0.3s;
+        font-family: mm;
+    }
+    .navbar .dropdown-menu a:hover{
+        background: transparent;
+        color:#136CB3;
+        cursor: pointer;
+    }
+    .card-columns{
+        column-count:1;
+    }
 }
