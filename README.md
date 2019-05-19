@@ -397,3 +397,239 @@ development
                                     </div>
                 </div>
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Thailand</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">Basketball 🏀 </li>
+                                        <li style="list-style:none ;padding: 5px;">   Swimming 🏊‍ </li>
+                                         <li style="list-style:none ;padding: 5px;">  Soccer ⚽</li>
+                                         <li style="list-style:none ;padding: 5px;">   Tennis 🎾  </li>
+                                         <li style="list-style:none ;padding: 5px;">  Hockey 🏑</li>
+                                         <li style="list-style:none ;padding: 5px;">   Cricket 🏏</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Belarus</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style:none ;padding: 2px;">Basketball 🏀 </li>
+                                        <li style="list-style:none ;padding: 2px;">   Swimming 🏊‍♂ </li>
+                                         <li style="list-style:none ;padding: 2px;">  Boxing 🥊</li>
+                                         <li style="list-style:none ;padding: 2px;">  Hockey 🏑</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3> Russia, Moscow</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 2px;">Basketball 🏀 </li>
+                                        <li style="list-style: none;padding: 2px;">   Swimming 🏊‍♂ </li>
+                                         <li style="list-style: none;padding: 2px;">  Soccer ⚽</li>
+                                         <li style="list-style: none;padding: 2px;">   Hockey 🏑 </li>
+                                         <li style="list-style: none;padding: 2px;">  Tennis 🎾 </li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3> Istanbul, Turkey</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 2px;">Basketball 🏀 </li>
+                                        <li style="list-style: none;padding: 2px;">   Swimming 🏊‍♂ </li>
+                                         <li style="list-style: none;padding: 2px;">  Soccer ⚽</li>
+                                         <li style="list-style: none;padding: 2px;">  Leadership Camp 👨🏼‍💼</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    
+        
+        
+                </div>
+                    <br>
+                <div class="card-deck" id="places-2">
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Almaty, Kazakhstan</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 2px;">Basketball 🏀 </li>
+                                                            <li style="list-style: none;padding: 2px;">   Swimming 🏊‍♂ </li>
+                                                             <li style="list-style: none;padding: 2px;">  Soccer ⚽</li>
+                                                             <li style="list-style: none;padding: 2px;">   Hockey 🏑 </li>
+                                                             <li style="list-style: none;padding: 2px;">  Tennis 🎾 </li>
+                                                             <b>WINTER</b>
+                                                             <li style="list-style: none;padding: 2px;">Skiing  🎿 </li>
+                                                             <li style="list-style: none;padding: 2px;">   Snow Boarding 🏂 </li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Dubai, UEA</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">  Cricket 🏏</li>
+                                        <li style="list-style: none;padding: 5px;">Basketball 🏀 </li>
+                                          <li style="list-style: none;padding: 5px;">   Swimming 🏊‍♂ </li>
+                                           <li style="list-style: none;padding: 5px;">  Soccer ⚽</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>  Georgia Tbilisi</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">Skiing  🎿 </li>
+                                                    <li style="list-style: none;padding: 5px;">   Snow Boarding 🏂 </li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3> India</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">All Sports  </li>
+                                     <li style="list-style: none;padding: 5px;">   CAS trips ( Critivity Activity and Services ) </li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    
+        
+        
+                </div>
+        
+<br>
+<div class="card-deck" id="places-3">
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Canada</h3>
+                        <div class="overlay">
+                                <li style="list-style: none;padding: 5px;">Cricket 🏏 </li>
+                                <li style="list-style: none;padding: 5px;">   Swimming 🏊‍ </li>
+                                 <li style="list-style: none;padding: 5px;">  Hockey 🏑 </li>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Bulgaria</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">Basketball 🏀 </li>
+                                        <li style="list-style: none;padding: 5px;">   Swimming 🏊‍ </li>
+                                         <li style="list-style: none;padding: 5px;">  Leadership Camp 👨🏼‍💼</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>Czech Republic</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">Basketball 🏀 </li>
+                                        <li style="list-style: none;padding: 5px;">   Swimming 🏊‍♂ </li>
+                                         <li style="list-style: none;padding: 5px;">  Soccer ⚽</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+        
+                    <div class="card">
+        
+        
+                        <div class="img-card"></div>
+                        <h3>America</h3>
+                        <div class="overlay">
+                                <ul style="margin-left: -30px;">
+                                        <li style="list-style: none;padding: 5px;">Basketball 🏀 </li>
+                                        <li style="list-style: none;padding: 5px;">   Swimming 🏊‍♂ </li>
+                                         <li style="list-style: none;padding: 5px;">  Soccer ⚽</li>
+                                    </ul>
+                            
+                        </div>
+                    </div>
+        
+                    
+        
+        
+                </div>
+
+
+        
+            </div>

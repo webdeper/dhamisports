@@ -22,7 +22,7 @@ body{
     border-radius: 5px;
 }
 .navbar .navbar-brand{
-    font-size: 25px;
+    font-size: 30px;
 }
 .navbar{
     background: white;
@@ -31,8 +31,8 @@ body{
 }
 .navbar .nav-link{
     color: #727272;
-    font-family: mm;
-    font-size: 15px;
+    font-family: mb;
+    font-size: 17px;
 }
 .navbar .nav-link.active{
     font-family: mb;
@@ -228,14 +228,16 @@ body{
 #up-events .ueh{
     border-left:0px solid #136CB3;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: px;
     font-family: mb;
     color: #e43042;
 }
 
 #up-events  .card {
     background: white;
-    
+    border-radius: 5px;
+    border: 0px solid;
+    height: 100%;;
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
 }
 
@@ -253,22 +255,23 @@ background: white;
 }
 #up-events  .card .overlay h1{
     font-family: mm;
-    font-size: 30px;
+    font-size: 23px;
     color: #136CB3;
 
 }
 #up-events  .card .overlay p{
-    font-family: mm;
-    font-size: px;
+    font-family: mr;
+    font-size: 13px;
     color: rgb(148, 148, 148);
 
 }
 #up-events  .card  .btn{
     border-radius: 0px;
     border: 0px solid;
-    padding: 15px;
+    padding: 10px;
     font-family: mm;
 }
+
 #up-events .s-m{
     border-radius: 0px;
     border: 0px solid;
@@ -309,11 +312,30 @@ background: white;
     margin: 10px;
 }
 #places .card {
-    width: 300px;;
-    height: 250px;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.06);
     border: 0px solid;
     border-radius: 0px;
 }
+#places .card:hover{
+    box-shadow: 0px 10px 10px 5px rgba(128, 128, 128, 0.1);
+}
+#places .card h4{
+    font-size: 18px;
+    font-family: mm;
+}
+#places .card  .card-img-top{
+    border-radius: 0px;
+}
+#places .card .card-body li{
+    font-family: mr;
+    list-style: none;
+    font-size: 13px;
+    padding: 2px;
+}
+#places .card .card-header{
+    background: white;
+}
+/*
 #places .card  h3{
 	position: absolute;
 	bottom: 0px;
@@ -338,7 +360,7 @@ background: white;
 #places .card:hover  .overlay{
     opacity: 1;
     z-index: 1;
-}
+
 #places .card:nth-child(1){
 	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,#136CB3 110%) ,url('../images/Thailand.jpg');
 
@@ -468,6 +490,7 @@ background: white;
 	background:#D9B74E;
 	
 }
+*/
 
 #test{
     height: 350px;
@@ -693,8 +716,25 @@ background: white;
 #about h6{
     font-family: mm;
 }
-#aboutinfo p{
+#aboutinfo h2{
+    font-family: mm;
+    text-align: center;
+    padding: 10px;
+}
+#aboutinfo .col-md-4{
+    padding: 20px;
+}
+#aboutinfo .col-md-4 p{
     font-family: mr;
+    font-size: 17px;
+    text-align: left
+}
+#aboutinfo{
+    padding: 20px;
+}
+#aboutinfo h5{
+    font-family: mm;
+    font-size: 25px;
 }
 #rg{
     background: #136CB3;
@@ -709,7 +749,7 @@ background: white;
 }
 #rg h2{
     font-family: mm;
-    font-size: 45px;
+    font-size: 35px;
 }
 #rg .btn{
     padding: 20px;
@@ -752,8 +792,16 @@ background: white;
 }
 
 
+#Features h3{
+    border-left:5px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+    text-align: left;
+}
 #Features li{
-    padding: 15px;
+    padding: 5px;
     font-family: mm;
     font-size: 20px;
 }
@@ -784,13 +832,11 @@ background: white;
     width: 100%;
 }
 #up-events-summer #events {
-   
-    float: ;
-    border: 0px solid #136CB3;
-    background:white;
-    
-    
-    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.05);
+    background: white;
+    border-radius: 5px;
+    border: 0px solid;
+    height: 100%;;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
 
 }
 #up-events-summer #events  .overlay{
@@ -807,20 +853,20 @@ background: white;
 }
 #up-events-summer  #events  .overlay h1{
     font-family: mm;
-    font-size: 30px;
+    font-size: 23px;
     color: #136CB3;
 
 }
 #up-events-summer  #events  .overlay p{
-    font-family: mm;
-    font-size: px;
+    font-family: mr;
+    font-size: 13px;
     color: rgb(148, 148, 148);
 
 }
 #up-events-summer  #events   .btn{
     border-radius: 0px;
     border: 0px solid;
-    padding: 15px;
+    padding: 10px;
     font-family: mm;
 }
 
@@ -940,16 +986,24 @@ background: white;
     border-radius: 5px;
 }
 #gallery .card{
-    padding: 10px;
+    padding: px;
     border-radius: 0px;
-    border: 0px solid;
+    border: 1px solid lightblue;
     transition: all 0.3s;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.06);
+    font-family: mm;
+    height: 100%;;
+}
+#gallery a{
+    color: #333;
+    text-decoration: none;
+}
+#gallery .card h5{
+    font-family: mb;
 }
 #gallery .card:hover{
-    transform: scale(1.1);
-    padding: 10px;
-    border-radius: 0px;
-    border: 0px solid;
+    box-shadow: 0px 15px 10px 5px rgba(128, 128, 128, 0.1);
+ 
     transition: all 0.3s;
 }
 #nav-event h3{
@@ -1030,12 +1084,12 @@ background: white;
 #con-2 form input{
     padding: 20px;
     font-family: mr;
-    border-bottom: 3px solid #136CB3;
+  
 }
 #con-2 form  textarea{
     padding: 20px;
     font-family: mr;
-    border-bottom: 3px solid #136CB3;
+   
 }
 #con-2 form .btn{
     padding: 20px;
@@ -1054,53 +1108,12 @@ background: white;
 }
 #company .card img{
    opacity: 0.8;
-  filter: grayscale(100%);
-    width: 110px;
+  filter: grayscale(0%);
+    width: 120px;
+    height: 110px;
+    align-content:center ;
 }
-#hockey-event-1 .ueh{
-    border-left:0px solid #136CB3;
-    padding: 10px;
-    padding-left: 20px;
-    font-family: mb;
-    color: #e43042;
-    text-align: center;
-}
-#hockey-event-1 h1{
-    font-family: mm;
-}
-#hockey-event-1 .card{
-    padding: 20px;
-    border-radius: 5px ;
-    border: 0px solid;
-    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.05);
-}
-#hockey-event-1 .card h1{
-    font-family: mb;
-    color: #136CB3;
-}
-#hockey-event-1 .card h2{
-    font-family: mm;
-    font-size: 20px;
-    padding: 10px;
-}
-#hockey-event-1 .card h4{
-    font-family: mm;
-    font-size: 18px;
-    padding: 10px;
-}
-#hockey-event-1 .img .card {
-    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0);
-}
-#hockey-event-1  .btn{
-    padding: 10px;
-    width: 100%;
-    border: 0px solid;
-    border-radius: 0px;
-    font-family: mm;
-}
-#hockey-event-1 p{
-    font-family: mm;
-}
+
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1171,3 +1184,127 @@ background: white;
         column-count:1;
     }
 }
+
+#past-events #ueh{
+    border-left:0px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+    text-align: center;
+}
+#past-events .card-group{
+    background: white;
+    border-radius: 5px;
+    border: 0px solid;
+    height: 100%;;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
+
+}
+#past-events .card-group .card {
+    font-family: mm;
+    border: 0px solid;
+    padding: 10px;
+}
+#past-events .card-group .card h1{
+    font-family: mm;
+    font-size: 23px;
+}
+#past-events .card-group .card p{
+    font-family: mr;
+    font-size: 18px;
+    padding: 0px;
+}
+#past-events .card-group .card .btn{
+    border-radius: 50px;
+    width:200px ;
+    float: right;
+ 
+  
+}
+#past-events .btn{
+    border-radius: 0px;
+    border: 0px solid;
+    padding: 10px;
+    font-family: mm;
+}
+
+.ueh{
+    border-left:0px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+    text-align: center;
+}
+
+
+#hockey-festival-sec{
+    background: linear-gradient(to bottom,rgba(0, 0, 29, 0.1) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/hoc.jpg'); 
+    margin: 0 auto;
+    height: 300px;
+    background-size: cover;
+}
+#yoga-sec{
+    background: linear-gradient(to bottom,rgba(0, 0, 29, 0.1) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/yoga-back.jpg'); 
+    margin: 0 auto;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#h-e-c {
+    margin-top: -180px;
+}
+#h-e-c .card{
+    border: 0px solid;
+}
+#h-e-c .ueh{
+    border-left:0px solid #136CB3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: mb;
+    color: #e43042;
+    text-align: center;
+}
+#h-e-c h1{
+    font-family: mm;
+}
+#h-e-c .card{
+    padding: 20px;
+    border-radius: 5px ;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.05);
+}
+#h-e-c .card h1{
+    font-family: mb;
+    color: #136CB3;
+}
+#h-e-c .card h2{
+    font-family: mm;
+    font-size: 20px;
+    padding: 10px;
+}
+#h-e-c .card h4{
+    font-family: mm;
+    font-size: 18px;
+    padding: 10px;
+}
+#h-e-c .img .card {
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0);
+}
+#h-e-c  .btn{
+    padding: 10px;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 0px;
+    font-family: mm;
+}
+#h-e-c p{
+    font-family: mm;
+}
+#h-e-c li{
+    list-style: none;
+}
+#h-e-c  li:before {
+    content: '✓ ';
+  }
