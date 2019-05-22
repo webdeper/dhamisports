@@ -22,7 +22,7 @@ body{
     border-radius: 5px;
 }
 .navbar .navbar-brand{
-    font-size: 30px;
+    font-size: 40px;
 }
 .navbar{
     background: white;
@@ -1244,6 +1244,7 @@ background: white;
     margin: 0 auto;
     height: 300px;
     background-size: cover;
+    background-attachment: fixed;
 }
 #yoga-sec{
     background: linear-gradient(to bottom,rgba(0, 0, 29, 0.1) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/yoga-back.jpg'); 
