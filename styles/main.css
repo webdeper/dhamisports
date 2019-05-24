@@ -16,7 +16,8 @@
   }
 body{
     background: white;
-    height: 1000px;
+    height: ;
+    overflow-x: hidden;
 }
 .btn{
     border-radius: 5px;
@@ -92,18 +93,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
 #car #section-02{ 
-    background: #136CB3;
-    position: relative;
-    width: 100%;
-    color: white;
-    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back-2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#car #section-03{ 
     background: #136CB3;
     position: relative;
     width: 100%;
@@ -114,12 +105,34 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-#car #section-04{ 
+#car #section-03{ 
     background: #136CB3;
     position: relative;
     width: 100%;
     color: white;
-    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/back-4.jpg');
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/hockey-event.PNG');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: ;
+    background-attachment: ;
+}
+#car #section-033{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/hockey-back.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: ;
+}
+#car #section-04{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%; 
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/swim.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,6 +144,18 @@ body{
     width: 100%;
     color: white;
     background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/yoga-back.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#car #section-06{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/cas.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1126,10 +1151,21 @@ background: white;
 }
 
 
-
+#cas h1{
+   color:  #e43042;
+}
 @media (min-width: 320px) and (max-width: 480px) {
     body{
         overflow-x: hidden;
+    }
+    .navbar .navbar-brand{
+        font-size: 25px;
+    }
+    .ueh{
+        font-size: 30px;
+    }
+    #cas h1{
+        font-size: 30px;
     }
     #car .jumbotron h6{
         font-family: mr;
