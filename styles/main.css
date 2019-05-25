@@ -1024,7 +1024,7 @@ background: white;
 #gallery .card{
     padding: px;
     border-radius: 0px;
-    border: 1px solid lightblue;
+    border: 0px solid lightblue;
     transition: all 0.3s;
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.06);
     font-family: mm;
@@ -1036,6 +1036,9 @@ background: white;
 }
 #gallery .card h5{
     font-family: mb;
+}
+#gallery .card p{
+    font-family: mr;
 }
 #gallery .card:hover{
     box-shadow: 0px 15px 10px 5px rgba(128, 128, 128, 0.1);
@@ -1053,7 +1056,7 @@ background: white;
     padding: 10px;
 }
 #nav-event li{
-    padding: 10px;
+    padding: 10px; 
     font-family: mm;
     
 }
@@ -1377,4 +1380,16 @@ background: white;
 }
 #cas h2 {
     font-family: mm;
+}
+
+#experts .card{
+    border: 0px solid;
+    border-radius: 0px;
+}
+#experts .card img{
+    border: 0px solid;
+    border-radius: 0px;
+}
+#experts .card:hover{
+   box-shadow: 0px 0px 5px 2px #ededed;
 }
