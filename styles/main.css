@@ -161,6 +161,18 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+#car #section-07{ 
+    background: #136CB3;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: linear-gradient(70deg,rgba(19, 107, 179, 0.45) 50%,rgba(19, 107, 179, 0.45) 50%) ,url('../images/football-full-hd-wallpapers.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: ;
+}
 #car .jumbotron h6{
     font-family: mr;
     word-spacing: 20px;
@@ -169,11 +181,13 @@ body{
     font-family: mm;
     font-size: 80px;
     padding: 10px;
+    
 }
 #car .jumbotron  h1{
     font-family: mbi;
     font-size: 80px;
     padding: 10px;
+
 }
 #car .jumbotron  .btn{
     padding: 10px;
@@ -224,6 +238,19 @@ body{
     font-family: mb;
     color: #e43042;
 }
+ .card-deck{
+    width:100%;
+}
+
+ #our-packages .card-deck img{
+    width: 80px;
+     height: 80px;
+}
+  .card-deck img{
+    width: 100%;
+     height: 210px;
+}
+
 #our-packages .card{
     padding: 20px;
     text-align: center;
@@ -231,6 +258,8 @@ body{
     border: 0px solid #136CB3;
     transition: all 0.3s;
     box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.01);
+    display:block;
+    width: 100%;
 }
 #our-packages .card:hover{
     transform: scale(1.05);
@@ -273,7 +302,7 @@ body{
     background: white;
     border-radius: 5px;
     border: 0px solid;
-    height: 100%;;
+    height: 100%;
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
 }
 
@@ -815,7 +844,10 @@ background: white;
     border: 0px solid;
 }
 
-
+#stinfo .card-deck img{
+    width: 100px;
+    height: 100px;
+}
 
 #interplace .card-group .btn{
     padding: 10px;
@@ -858,6 +890,10 @@ background: white;
     text-align: center;
     
     
+}
+#as .card-deck img{
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -933,7 +969,7 @@ background: white;
 	color: white;
 }
 #winter-card .card:nth-child(1){
-	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/almaty.jpg');
+	background: linear-gradient(to bottom,rgba(0, 0, 29, 0) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/Kyrgystan.jpg');
 
     background-size: cover;
     background-position: center;
@@ -1243,7 +1279,7 @@ background: white;
     color: #e43042;
     text-align: center;
 }
-#past-events .card-group{
+#past-events .card-deck{
     background: white;
     border-radius: 5px;
     border: 0px solid;
@@ -1251,21 +1287,21 @@ background: white;
     box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.1);
 
 }
-#past-events .card-group .card {
+#past-events .card-deck .card {
     font-family: mm;
     border: 0px solid;
     padding: 10px;
 }
-#past-events .card-group .card h1{
+#past-events .card-deck .card h1{
     font-family: mm;
     font-size: 23px;
 }
-#past-events .card-group .card p{
+#past-events .card-deck .card p{
     font-family: mr;
     font-size: 18px;
     padding: 0px;
 }
-#past-events .card-group .card .btn{
+#past-events .card-deck .card .btn{
     border-radius: 50px;
     width:200px ;
     float: right;
@@ -1288,7 +1324,10 @@ background: white;
     text-align: center;
 }
 
-
+ #h-e-c .img2 img{
+    width: 100px;
+    height: 80px;
+} 
 #hockey-festival-sec{
     background: linear-gradient(to bottom,rgba(0, 0, 29, 0.1) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/hoc.jpg'); 
     margin: 0 auto;
@@ -1302,6 +1341,15 @@ background: white;
     height: 300px;
     background-attachment: fixed;
     background-size: cover;
+}
+#football-sec{
+    background: linear-gradient(to bottom,rgba(0, 0, 29, 0.1) 60%,rgba(0, 0, 29, 0.8) 110%) ,url('../images/football-full-hd-wallpapers.jpg'); 
+    background-position: bottom;
+    margin: 0 auto; 
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: ;
 }
 #h-e-c {
     margin-top: -180px;

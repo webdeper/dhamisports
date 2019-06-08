@@ -2,7 +2,54 @@
 Dhami Sports Management
 Website Development
 development
-  <br>
+
+  
+  
+  <!-- 
+
+      <div class="jumbotron" id="com">
+        <div class="container">
+            <h1 class="text-center">TESTIMONIAL</h1>
+            <div class="slider" id="test">
+                <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+                <input type="radio" name="slider" title="slide2" class="slider__nav" />
+                <input type="radio" name="slider" title="slide3" class="slider__nav" />
+                <input type="radio" name="slider" title="slide4" class="slider__nav" />
+                <div class="slider__inner">
+                    <div class="slider__contents">
+                        <img src="images/test.png" width="80px" alt="">
+                        <h2 class="slider__caption">JENNIFER HOFFMAN</h2>
+                        <p class="slider__txt">Thanks for managing the sales conference for us. It was the best ever Ashes experience and the whole
+                            team felt motivated to visit MCG next year when India plays Australia for boxing day test in
+                            2018.</p>
+                    </div>
+                    <div class="slider__contents">
+                        <img src="images/test.png" width="80px" alt="">
+                        <h2 class="slider__caption">Avani </h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos,
+                            corporis minima!</p>
+                    </div>
+                    <div class="slider__contents">
+                        <img src="images/test.png" width="80px" alt="">
+                        <h2 class="slider__caption">Rohit Shetty</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos,
+                            corporis minima!</p>
+                    </div>
+                    <div class="slider__contents">
+                        <img src="images/test.png" width="80px" alt="">
+                        <h2 class="slider__caption">diamond</h2>
+                        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos,
+                            corporis minima!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+-->
+  
+
 
                 <div class="row">
                     <div class="col-md-4"><div class="container">
