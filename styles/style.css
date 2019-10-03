@@ -1,0 +1,1199 @@
+@font-face {
+  font-family: rb;
+  src: url("../fonts/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: rbo;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: reb;
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: rm;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: rr;
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: rsb;
+  src: url("../fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: bwb;
+  src: url("../fonts/BwNistaGeometricDEMO-Black.otf");
+}
+@font-face {
+  font-family: bwbo;
+  src: url("../fonts/BwNistaGeometricDEMO-Bold.otf");
+}
+@font-face {
+  font-family: bweb;
+  src: url("../fonts/BwNistaGeometricDEMO-ExtraBold.otf");
+}
+@font-face {
+  font-family: bwm;
+  src: url("../fonts/BwNistaGeometricDEMO-Medium.otf");
+}
+@font-face {
+  font-family: bwr;
+  src: url("../fonts/BwNistaGeometricDEMO-Regular.otf");
+}
+@font-face {
+  font-family: bwt;
+  src: url("../fonts/BwNistaGeometricDEMO-Thin.otf");
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+  height: 1000px;
+}
+.navbar {
+  transition: all 0.3s;
+  background: #040e20;
+  position: ;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 10px;
+  position: relative;
+  color: #8c8c8c9d;
+  box-shadow: 9px 21px 82px -41px rgba(163, 163, 163, 1);
+}
+.navbar .navbar-brand {
+  width: 110px;
+  padding-left: 30px;
+}
+.navbar .btn {
+  border: 0px solid;
+  border-radius: 0px;
+  font-family: bwm;
+  background-color: #01a3fe;
+  color: white;
+  font-size: 14px;
+  width: 130px;
+  padding: 10px;
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-family: bwm;
+  font-size: 14px;
+  opacity: ;
+  margin-right: 30px;
+}
+
+.jumbotron {
+  border-radius: 0px;
+  margin: 0 auto;
+  background: transparent;
+}
+.jumbotron .headline {
+  padding: 20px;
+  margin: 30px;
+  margin-top: 160px;
+}
+
+.j1 {
+  background: linear-gradient(
+      70deg,
+      rgba(4, 14, 32, 0.5) 50%,
+      rgba(4, 14, 32, 0.5) 50%
+    ),
+    url("../images/basketball.2jpg.jpg");
+  position: ;
+  background-size: cover;
+  background-position: top top top top;
+  background-attachment: fixed;
+  margin-top: -70px;
+  width: 100%;
+  height: 100vh;
+}
+.j3 {
+  background: linear-gradient(
+      70deg,
+      rgba(4, 14, 32, 0.5) 50%,
+      rgba(4, 14, 32, 0.5) 50%
+    ),
+    url("../images/swim.jpg");
+  position: ;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  margin-top: -70px;
+  width: 100%;
+  height: 100vh;
+}
+.j1 p {
+  color: #01a3fe;
+  font-family: rr;
+  font-size: 10px;
+}
+.j1 h1 {
+  font-family: bwb;
+  color: white;
+  font-size: 65px;
+}
+.j1 h3 {
+  color: #01a3fe;
+  font-family: rm;
+}
+.j1 h4 {
+  color: white;
+  opacity: 0.8;
+  font-family: rm;
+}
+.j1 .btn {
+  width: 210px;
+  height: 52px;
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+  color: white;
+  font-family: bwr;
+  font-size: 14px;
+  border-radius: 0px;
+}
+.j1 .btn-b {
+  position: absolute;
+  width: 210px;
+  height: 52px;
+  background: transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 00px;
+}
+.j1 .event-card {
+  margin: 30px;
+  padding: 20px;
+  margin-top: 150px;
+}
+.j1 .event-card .card {
+  width: 160px;
+  height: 230px;
+  border: 4px solid white;
+  border-radius: 0px;
+  background: transparent;
+}
+.j1 .event-card .card i {
+  color: white;
+}
+.j1 .event-card .card h1 {
+  font-family: bwbo;
+  font-size: 100px;
+  color: #01a3fe;
+  margin-top: -10px;
+}
+.j1 .event-card .card h5 {
+  font-family: rm;
+  font-size: 20px;
+  color: white;
+  margin-top: -10px;
+}
+.j1 .event-card .card h4 {
+  font-family: bwr;
+  font-size: 20px;
+  color: white;
+  border-top: 4px solid white;
+  line-height: 50px;
+}
+
+.j2 {
+  background: linear-gradient(
+      70deg,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.6) 50%
+    ),
+    url("../images/back2.png");
+
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  margin-top: -70px;
+  width: 100%;
+  height: 100vh;
+}
+.j2 p {
+  color: white;
+  font-family: rr;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.j2 h1 {
+  font-family: bwb;
+  color: white;
+  font-size: 65px;
+}
+.j2 h3 {
+  color: #01a3fe;
+  font-family: rm;
+}
+.j2 h4 {
+  color: white;
+  opacity: 0.8;
+  font-family: rm;
+}
+.j2 .btn {
+  width: 210px;
+  height: 52px;
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+  color: white;
+  font-family: bwr;
+  font-size: 14px;
+  border-radius: 00px;
+}
+.j2 .btn-b {
+  position: absolute;
+  width: 210px;
+  height: 52px;
+  background: transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 00px;
+}
+.j2 .video-card {
+  margin: 10px;
+  padding: 25px;
+  margin-top: 250px;
+}
+.j2 .event-card .card {
+  width: 160px;
+  height: 230px;
+  border: 4px solid white;
+  border-radius: 0px;
+  background: transparent;
+}
+.j2 .event-card .card i {
+  color: white;
+}
+.j2 .event-card .card h1 {
+  font-family: bwbo;
+  font-size: 100px;
+  color: #01a3fe;
+  margin-top: -10px;
+}
+.j2 .event-card .card h5 {
+  font-family: rm;
+  font-size: 20px;
+  color: white;
+  margin-top: -10px;
+}
+.j2 .event-card .card h4 {
+  font-family: bwr;
+  font-size: 20px;
+  color: white;
+  border-top: 4px solid white;
+  line-height: 50px;
+}
+.j2 .video-card {
+  margin-right: 150px;
+  background: #01a3fe;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: white;
+  transition: all 0.3s;
+}
+.j2 .video-card i {
+  color: #26263d;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+.j2 .video-card:hover {
+  margin-right: 150px;
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: white;
+}
+.j2 .video-card:hover .video-card i {
+  color: white;
+  opacity: 1;
+}
+.about {
+  background: linear-gradient(
+      70deg,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.6) 50%
+    ),
+    url("../images/back2.png");
+
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  color: white;
+}
+.about .h1 {
+  color: white;
+  font-family: bwb;
+  font-size: 25px;
+}
+#about h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+.underline {
+  width: 100px;
+  height: 3px;
+  color: #01a3fe;
+  border-radius: 0px;
+  background: #01a3fe;
+}
+#about p {
+  padding: 5px;
+  font-size: 25px;
+  font-family: bwm;
+  color: rgba(0, 0, 0, 0.747);
+}
+#about .card {
+  background: white;
+  padding: 10px;
+  border-radius: 0px;
+  border: 2px solid #ffffff;
+
+  transition: all 0.3s ease;
+}
+
+#about .card p {
+  padding: 20px;
+  font-size: 18px;
+  font-family: bwr;
+  color: rgba(0, 0, 0, 0.6);
+}
+#about .card h2 {
+  font-size: 22px;
+  font-family: bweb;
+  color: #01a3fe;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#about .card:hover {
+  border: 2px solid #01a3fe;
+  box-shadow: 0px 15px 61px -29px rgba(0, 128, 255, 0.1);
+}
+#events {
+}
+#events h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#events .card {
+  border-radius: 0px;
+  border: 0px solid;
+  background: transparent;
+  height: ;
+  padding: ;
+  transition: all 0.3s ease-out;
+}
+#events .card img {
+  border-radius: 0px;
+  height: 100%;
+}
+#events .card h4 {
+  font-size: 20px;
+  font-family: bweb;
+  color: #040e20;
+  margin-top: 20px;
+}
+
+#events .card h6 {
+  font-family: bwm;
+  color: #4d4c4c;
+}
+#events .card h5 {
+  font-family: bwm;
+  color: #4d4c4c;
+  font-size: 17px;
+  padding-top: px;
+}
+#events .card .btn-danger {
+  border-radius: 0px;
+  border: 0px solid;
+  width: 100%;
+  font-family: bwm;
+  padding: 15px;
+  background: #01a3fe;
+}
+#events .tile {
+  margin: 10px;
+}
+#events .card .overlay {
+  display: ;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #040e20;
+  border-radius: 0px;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+#events .card .overlay .btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 0px;
+  font-family: bwm;
+  font-size: 13px;
+  background: #01a3fe;
+  color: white;
+}
+#events .card:hover .overlay {
+  opacity: 1;
+}
+#events .card:hover {
+  margin-top: 0px;
+  box-shadow: 0px 15px 61px -29px rgba(0, 128, 255, 0.1);
+}
+#events .moreevents {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: bwm;
+  color: rgb(134, 134, 134);
+  background: rgb(233, 232, 232);
+  border: 0px solid;
+  float: right;
+}
+#events #dn .date h2 {
+  font-size: 18px;
+  font-family: bwm;
+  color: #01a3fe;
+  margin-top: 10px;
+}
+#events #dn .btn {
+  position: relative;
+  font-size: 10px;
+  font-family: bwm;
+  color: white;
+  height: 30px;
+  background: #01a3fe;
+  float: ;
+  border: 0px solid;
+}
+#service h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+
+#service .card {
+  border: 0px solid;
+  border-radius: 0px;
+  padding: 20px;
+  background: white;
+  transition: all 0.3s;
+  height: 300px;
+}
+#service .icon {
+  position: ;
+  padding: 0px;
+  margin-top: -50px;
+}
+#service h3 {
+  color: #1f3764;
+  font-size: 22px;
+  font-family: bweb;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+#service p {
+  font-size: 16px;
+  font-family: bwr;
+  padding: 10px;
+  color: #707070;
+}
+#service .card img {
+  transition: all 0.3s;
+}
+#service .card:hover {
+  box-shadow: 9px 21px 82px -41px rgba(163, 163, 163, 1);
+}
+#service .card:hover img {
+  margin-top: 30px;
+}
+#destination h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#destination .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    70deg,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.2) 50%
+  );
+}
+#desitination .card-group {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#desitination .card {
+  margin: 0 auto;
+  border: 0px solid;
+  border-radius: 0px;
+}
+#destination .card .overlay:hover {
+  background: linear-gradient(
+    70deg,
+    rgba(0, 138, 251, 0.5) 50%,
+    rgba(0, 119, 255, 0.5) 50%
+  );
+}
+#destination .card img {
+  height: 180px;
+}
+#destination .card .overlay h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: bwb;
+  font-size: 20px;
+}
+#past h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+
+#past .card {
+  border-radius: 0px;
+  border: 0px solid;
+  background: transparent;
+  transition: all 0.3s ease-out;
+}
+#past .card img {
+  border-radius: 0px;
+  height: 200px;
+}
+#past .card h4 {
+  font-size: 22px;
+  font-family: bweb;
+  color: #040e20;
+  margin-top: 20px;
+}
+
+#past .card h6 {
+  font-family: bwm;
+  color: #4d4c4c;
+}
+#past .card h2 {
+  font-family: bwm;
+  color: #01a3fe;
+  font-size: 20px;
+}
+#past .card .overlay {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background: rgba(4, 14, 32, 0.9);
+  border-radius: 0px;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+#past .card .overlay .btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 0px;
+  font-family: bwm;
+  font-size: 13px;
+  background: #01a3fe;
+  color: white;
+}
+#past .card:hover .overlay {
+  opacity: 1;
+}
+#past .card:hover {
+  margin-top: 0px;
+  box-shadow: 0px 15px 61px -29px rgba(0, 128, 255, 0.1);
+}
+#past .moreevents {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: bwm;
+  color: rgb(134, 134, 134);
+  background: rgb(233, 232, 232);
+  border: 0px solid;
+  float: right;
+}
+#partner h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#partner .card {
+  background: transparent;
+  border: 0px solid;
+  border-radius: 0px;
+}
+#partner .card img {
+}
+#footer {
+  background: linear-gradient(
+      70deg,
+      rgba(0, 5, 19, 0.95) 50%,
+      rgba(1, 8, 32, 0.95) 50%
+    ),
+    url("../images/back2.png");
+
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+#footer .card {
+  border: 0px solid;
+  background: transparent;
+  border-radius: 0px;
+  padding: 10px;
+}
+#footer .card h4 {
+  font-family: bwm;
+  font-size: 20px;
+  color: white;
+}
+#footer .card p {
+  font-family: bwr;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#footer ul li {
+  color: white;
+  padding: 10px;
+}
+#footer ul li a {
+  color: white;
+  font-size: 18px;
+  font-family: bwb;
+}
+hr {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
+}
+.footer-2 {
+  background: #040e20;
+  padding: 5px;
+  height: 50px;
+}
+.footer-2 p {
+  color: white;
+  font-family: bwr;
+  font-size: 13px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+#team h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#team .card {
+  border: 0px solid;
+  border-radius: 0px;
+}
+#team .card h2 {
+  font-family: bwm;
+  font-size: 20px;
+}
+#team .card a {
+  padding-top: 5px;
+  font-family: bwr;
+  color: #040e20;
+  font-size: 14px;
+}
+#team .card:hover {
+  box-shadow: 9px 21px 82px -41px rgba(163, 163, 163, 1);
+  color: #01a3fe;
+}
+#ready {
+  background: linear-gradient(70deg, #01a1fed8 50%, #01a1fede 50%),
+    url("../images/back2.png");
+
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+#ready h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: white;
+}
+#ready .btn {
+  border: 0px solid;
+  border-radius: 0px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: bwm;
+  color: white;
+  width: 200px;
+  background: #040e20;
+}
+#packages-1 .card {
+  border: 0px solid;
+  height: 500px;
+  box-shadow: 9px 21px 82px -41px rgba(163, 163, 163, 1);
+}
+
+#packages-1 h2 {
+  font-family: bweb;
+  font-size: 35px;
+}
+#packages-1 p {
+  font-size: 16px;
+  font-family: bwr;
+  color: #4d4c4c;
+}
+#packages-1 .card img {
+  height: 500px;
+}
+
+#past-cards .card {
+  border-radius: 0px;
+  border: 0px solid;
+  background: transparent;
+  height: ;
+  padding: ;
+  transition: all 0.3s ease-out;
+}
+#past-cards .card img {
+  border-radius: 0px;
+  height: 200px;
+}
+#past-cards .card img {
+  border-radius: 0px;
+  height: 170px;
+}
+#past-cards .card a {
+  font-size: 18px;
+  font-family: bweb;
+  color: #040e20;
+  margin-top: 20px;
+}
+
+#past-cards .card h6 {
+  font-family: bwm;
+  color: #4d4c4c;
+}
+#past-cards .card h2 {
+  font-family: bwm;
+  color: #01a3fe;
+  font-size: 20px;
+}
+
+#past-cards .card:hover {
+  margin-top: 0px;
+  box-shadow: 0px 15px 61px -29px rgba(0, 128, 255, 0.1);
+}
+
+#past-cards #dn .date h2 {
+  font-size: 18px;
+  font-family: bwm;
+  color: #01a3fe;
+  margin-top: 10px;
+}
+#past-cards #dn .btn {
+  position: relative;
+  font-size: 10px;
+  font-family: bwm;
+  color: white;
+  height: 30px;
+  background: #01a3fe;
+  float: ;
+  border: 0px solid;
+}
+
+#gallery .card-columns {
+  column-count: 3;
+}
+#gallery .card {
+  border: 0px solid;
+  border-radius: 0px;
+}
+#gallery .card img {
+  border-radius: 0px;
+}
+.about .btn {
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+}
+
+.about .btn h2 {
+  font-family: bwm;
+  font-size: 25px;
+}
+#events #nav-event {
+  padding: 10px;
+  background: white;
+  position: ;
+}
+#events #nav-event h3 {
+  font-family: bwb;
+  font-size: 30px;
+  color: #040e20;
+  padding: 10px;
+}
+
+#events #nav-event li {
+  padding: 10px;
+  font-family: bwr;
+}
+#events #nav-event li:hover {
+  padding: 10px;
+  font-family: bwr;
+  background: #c2e9ff;
+}
+#events #interplace .btn {
+  padding: 10px;
+  font-family: bwm;
+  color: white;
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+  width: 100%;
+}
+#events #interplace .btn:hover {
+  box-shadow: 9px 21px 82px -41px rgb(0, 119, 255);
+}
+.main-events .card:hover {
+  margin-top: 0px;
+}
+#cas h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#cas p {
+  font-size: 18px;
+  font-family: bwr;
+  color: #4d4c4c;
+}
+#cas li {
+  padding: 5px;
+  font-family: bwr;
+  color: #4d4c4c;
+}
+#cas h4 {
+  font-family: bwm;
+  color: #4d4c4c;
+}
+#cas h3 {
+  font-family: bwm;
+  color: #4d4c4c;
+}
+#contact-form {
+  padding: 30px;
+  margin-top: -100px;
+  background: white;
+  border-radius: 0px;
+  box-shadow: 9px 21px 82px -41px rgb(0, 119, 255, 0.3);
+}
+#contact-form input {
+  padding: 20px;
+  font-family: bwr;
+  border: 0px solid;
+  border-radius: 0px;
+  border-bottom: 2px solid #01a3fe;
+}
+#contact-form textarea {
+  padding: 20px;
+  font-family: bwr;
+  border: 0px solid;
+  border-radius: 0px;
+  border-bottom: 2px solid #01a3fe;
+}
+#contact-form label {
+  font-family: bwm;
+  font-size: 12px;
+}
+#contact-form .btn {
+  padding: 15px;
+  font-family: bwm;
+  color: white;
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+  float: right;
+}
+#event-page {
+  padding: 30px;
+}
+#event-page .card {
+  border: 0px solid;
+  border-radius: 0px;
+}
+#event-page .card .btn {
+  padding: 10px;
+  font-family: bwm;
+  color: white;
+  background: #01a3fe;
+  border: 0px solid;
+  border-radius: 0px;
+  width: 100%;
+  position: relative;
+}
+#event-page .card h4 {
+  font-family: bweb;
+}
+#event-page .card li {
+  font-family: bwr;
+  font-size: 18px;
+  list-style: none;
+}
+#event-page .card h2 {
+  font-family: bweb;
+  font-size: 20px;
+  color: #01a3fe;
+}
+#event-page .card h4 {
+  font-family: bweb;
+  font-size: 18px;
+  color: #4d4c4c;
+  padding-top: 10px;
+}
+#event-page .card b {
+  color: #1f3764;
+}
+#event-page h1 {
+  font-size: 40px;
+  font-family: bwb;
+  color: #040e20;
+  padding: px;
+}
+#event-page p {
+  font-family: bwr;
+  font-size: 14px;
+}
+
+@media (min-width: 345px) and (max-width: 750px) {
+  .navbar .navbar-toggler {
+    color: black;
+    background: ;
+    padding: 5px;
+    border: 0px solid gray;
+  }
+
+  .navbar .navbar-brand img {
+    width: 120px;
+    margin-left: -20px;
+  }
+  #about h1 {
+    font-size: 30px;
+    font-family: bwb;
+    color: #040e20;
+    padding: px;
+  }
+  #gallery .card-columns {
+    column-count: 2;
+  }
+  .navbar .nav-link {
+    padding: 15px;
+  }
+  .navbar .nav-link:hover {
+    background: ;
+  }
+  .j2 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: ;
+  }
+  .j2 .btn {
+    width: 170px;
+    height: 45px;
+    background: #01a3fe;
+    border: 0px solid;
+    border-radius: 0px;
+    color: white;
+    font-family: bwr;
+    font-size: 12px;
+    border-radius: 00px;
+  }
+  .j2 .btn-b {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 00px;
+  }
+  .j2 h1 {
+    font-size: 35px;
+  }
+  .j2 h3 {
+    font-size: 15px;
+  }
+  .j2 p {
+    font-size: 11px;
+  }
+
+  .j1 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: ;
+  }
+  .j1 .btn {
+    width: 170px;
+    height: 45px;
+    background: #01a3fe;
+    border: 0px solid;
+    border-radius: 0px;
+    color: white;
+    font-family: bwr;
+    font-size: 12px;
+    border-radius: 00px;
+  }
+  .j1 .btn-b {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 00px;
+  }
+  .j1 h1 {
+    font-size: 35px;
+  }
+  .j1 h3 {
+    font-size: 15px;
+  }
+  .j1 p {
+    font-size: 11px;
+  }
+
+  .j3 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: ;
+  }
+  .j3 .btn {
+    width: 170px;
+    height: 45px;
+    background: #01a3fe;
+    border: 0px solid;
+    border-radius: 0px;
+    color: white;
+    font-family: bwr;
+    font-size: 12px;
+    border-radius: 00px;
+  }
+  .j3 .btn-b {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 00px;
+  }
+  .j3 h1 {
+    font-size: 35px;
+  }
+  .j3 h3 {
+    font-size: 15px;
+  }
+  .j3 p {
+    font-size: 11px;
+  }
+  .video-card {
+    display: none;
+  }
+  .moreevents {
+    float: left;
+  }
+  footer .logo {
+    width: 120px;
+  }
+  #footer .nav-link {
+    float: left;
+  }
+  .footer-2 p {
+    font-size: 10px;
+  }
+  #packages-1 .card {
+    border: 0px solid;
+    height: 250px;
+    box-shadow: 9px 21px 82px -41px rgba(163, 163, 163, 1);
+  }
+  #packages-1 .card img {
+    height: 250px;
+  }
+
+  .j1 .event-card {
+    margin: 30px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .j1 .event-card .card {
+    width: 100%;
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background: transparent;
+  }
+
+  .j1 .event-card .card h1 {
+    font-family: bwbo;
+    font-size: 70px;
+    color: #01a3fe;
+    margin-top: -10px;
+  }
+  .j1 .event-card .card h5 {
+    font-family: rm;
+    font-size: 14px;
+    color: white;
+    margin-top: -10px;
+  }
+  .j1 .event-card .card h4 {
+    font-family: bwr;
+    font-size: 16px;
+    color: white;
+    border-top: 4px solid white;
+    line-height: 50px;
+  }
+}
